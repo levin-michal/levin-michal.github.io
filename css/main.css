@@ -7,10 +7,10 @@
   --5__6__8: 5;
   --none__unset__unset: none;
   --hero-image-size: 190%;
-  --hero-image-pos: 100% 250%;
+  --hero-image-pos: 100% 110%;
   --hero-title-align-self: start;
   --hero-title-justify-self: center;
-  --hero-title-margin: 2em 0 0 0;
+  --hero-title-margin: 1em 0 0 0;
   --hero-title-name-margin: 0.5em 0 0 0;
 }
 
@@ -212,7 +212,8 @@ body {
 }
 
 .features {
-  margin: auto;
+  margin: 0 0.5em;
+  align-self: center;
   gap: 10px;
   display: flex;
 }
@@ -237,7 +238,8 @@ body {
 }
 
 .about-me, .diploma {
-  margin: auto;
+  margin: 0 0.5em;
+  align-self: center;
   display: flex;
   gap: 10px;
 }
